@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla Carros</title>
+  </head>
+  <body>
+
+    <style>
+        .demo {
+          width: 100%;
+          border: 1px solid #000000;
+          border-collapse: collapse;
+          font-weight: bold;
+          font-size: 1.5rem;
+        }
+      
+        .demo th {
+          color: aliceblue;
+          padding: 7px;
+          background: black;
+          text-align: left;
+        }
+      
+        .demo tr:nth-child(odd) {
+          background-color: rgba(192, 187, 187, 0.937);
+        }
+      
+        .demo td {
+          border: 1px solid black;
+          text-align: left;
+          padding: 7px;
+        }
+      </style>
+
+
+    <table class="demo">
+      <thead>
+        <tr>
+          <th>Modelo:</th>
+          <th>Descuento:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="ModeloCell"></td>
+          <td class="DescuentoCell"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="Ejer5.js"></script>
+  </body>
+</html>
